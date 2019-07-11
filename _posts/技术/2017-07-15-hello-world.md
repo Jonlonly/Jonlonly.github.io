@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 date: 2017-7-15
 description: "Render latex in Github with MathJax and Jekyll"
-categories: 学习
+categories: 技术
 
 ---
 
@@ -17,7 +17,7 @@ categories: 学习
 >## 二级标题
 >### 三级标题
 >#### 四级标题
->##### 五级标题
+>##### 五级标题 
 >###### 六级标题
 
 # 2. 列表
