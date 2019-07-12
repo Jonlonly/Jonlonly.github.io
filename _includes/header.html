@@ -29,6 +29,29 @@
   ga('send', 'pageview');
 
 </script>
+<!-- MathJax /2.7.2-->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                TeX: {
+                    TagSide: "right"
+                },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                    processEscapes: true
+                },
+                jax: ["input/TeX", "output/CHTML"],
+                CommonHTML: {
+                    scale: 70,
+                    linebreaks: { automatic: true },
+                    width: "80% container"
+                }
+            });
+        </script>
+        <script type="text/javascript" async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+		<!-- MathJax/2.7.5 -->
+		<!-- MathJax/2.7.5
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -38,6 +61,7 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+		-->
 {% include css.html %}
 
 <link href="/pages/rss.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
